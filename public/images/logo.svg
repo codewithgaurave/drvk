@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 100" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b5802e"/>
+      <stop offset="30%" stop-color="#e1ae58"/>
+      <stop offset="50%" stop-color="#fff3c4"/>
+      <stop offset="70%" stop-color="#d19a40"/>
+      <stop offset="100%" stop-color="#9f7228"/>
+    </linearGradient>
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#011128"/>
+      <stop offset="100%" stop-color="#000c1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Emblem Badge -->
+  <g transform="translate(10, 8)">
+    <!-- Outer gold ring -->
+    <circle cx="42" cy="42" r="40" stroke="url(#goldGrad)" stroke-width="2.5" fill="url(#darkNavy)"/>
+    <circle cx="42" cy="42" r="35" stroke="url(#goldGrad)" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+    
+    <!-- Crown at top of emblem -->
+    <path d="M30 27 L35 32 L42 25 L49 32 L54 27 L53 35 L31 35 Z" fill="url(#goldGrad)"/>
+    
+    <!-- Monogram VSC -->
+    <text x="42" y="55" text-anchor="middle" font-family="'Times New Roman', serif, Georgia, 'Plus Jakarta Sans'" font-size="19" font-weight="900" fill="url(#goldGrad)" letter-spacing="1.5">VSC</text>
+    
+    <!-- Laurel leaf decor below -->
+    <path d="M28 61 Q42 67 56 61" stroke="url(#goldGrad)" stroke-width="1.8" fill="none"/>
+  </g>
+
+  <!-- Typography Next to Emblem -->
+  <g transform="translate(108, 22)">
+    <text x="0" y="27" font-family="'Times New Roman', serif, Georgia, 'Plus Jakarta Sans'" font-size="24" font-weight="800" fill="url(#goldGrad)" letter-spacing="0.5">Dr. Vikram Singh</text>
+    <text x="0" y="51" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#e1ae58" letter-spacing="3" opacity="0.95">CHAUHAN · FOUNDER &amp; LEADER</text>
+  </g>
+</svg>
+
